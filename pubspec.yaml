@@ -41,12 +41,19 @@ dependencies:
   shared_preferences:
   connectivity_plus:
   firebase_messaging:
+flutter_native_splash:
+  background_image: images/splash_screen.png
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^3.0.0
+flutter_icons:
+  android: "splash_screen"
+  ios: true
+  image_path: "images/splash_screen.png"
+  android_badge: true
 
 flutter:
 

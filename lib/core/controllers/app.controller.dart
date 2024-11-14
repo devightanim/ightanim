@@ -30,7 +30,4 @@ class AppController extends GetxController {
     }
     return check;
   }
-  void updateRememberMe(bool value) {
-    setStoreData(storageData.value.authToken, storageData.value.email, value);
-  }
 }
