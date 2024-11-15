@@ -3,9 +3,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:ightanim/contents/theme.content.dart';
-import 'package:ightanim/core/screens/splash.screen.dart';
+import 'package:ightanim/screens/splash.screen.dart';
+import 'package:ightanim/screens/user/user_dashboard.screen.dart';
 
-import 'core/screens/user/user_dashboard.screen.dart';
 void main() {
   runApp(const MyApp());
 }
